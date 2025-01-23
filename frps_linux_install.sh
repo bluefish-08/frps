@@ -13,11 +13,11 @@ Font="\033[0m"
 
 # variable
 FRP_VERSION=0.61.1
-REPO=stilleshan/frps
+REPO=bluefish-08/frps
 WORK_PATH=$(dirname $(readlink -f $0))
 FRP_NAME=frps
 FRP_PATH=/usr/local/frp
-PROXY_URL="https://ghp.ci/"
+PROXY_URL="https://ghproxy,cn/"
 
 # check frps
 if [ -f "/usr/local/frp/${FRP_NAME}" ] || [ -f "/usr/local/frp/${FRP_NAME}.toml" ] || [ -f "/lib/systemd/system/${FRP_NAME}.service" ];then
